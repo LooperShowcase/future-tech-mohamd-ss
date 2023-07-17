@@ -38,3 +38,15 @@
 body{
     background-color: rgb(86, 71, 120);
 }
+
+@media screen and (max-width: 600px) {
+    /* Adjustments for mobile devices */
+    #input-text {
+      width: 90%;
+    }
+    
+    .container {
+      height: auto;
+      padding: 1rem;
+    }
+}
